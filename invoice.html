@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Invoice</title>
+</head>
+<body>
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .invoice {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      * {
+  box-sizing: border-box;
+} 
+
+
+      
+      .header {
+        text-align: left;
+        margin-bottom: 20px;
+      }
+       
+      .client-info { 
+        text-align: right;
+      } 
+      .invoice-details {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      
+      /* th {
+        background-color: #f2f2f2;
+      } */
+      
+      .total { 
+        text-align: right;
+      }
+      * {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd; 
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+/* tr:nth-child(even) {
+  background-color: #f2f2f2;
+}  */
+      </style>
+  <div class="invoice">
+    <div class="header">
+      <h1>LOGO</h1>
+      <p>Date: August 7, 2023</p>
+    </div>
+    <div class="client-info">
+      <h2>Sri Manjunath Technical Services</h2> 
+      <p>MCH Number 8-3-1113/2D, 3rd Floor, Sai<br>
+        Sadan Apartments,<br>
+        Kesava Nagar, Srinagar Colony,<br>
+        Hyderabad-500073</p>
+      <p>Email: john@example.com</p>
+    </div>
+    <div class="invoice-details">
+      <h2>Pay Slip</h2>
+      <!-- <table> -->
+        <div class="row">
+            <div class="column">
+        <table>
+            <tr>
+              <th>Emp Code :</th>
+              <td>3254</td>
+            </tr> 
+            <tr>
+              <th>Work Location:</th>
+              <td>HYDERABAD</td>
+            </tr>
+            <tr>
+              <th>Month:</th>
+              <td>July</td>
+            </tr>
+            <tr>
+                <th>BANK:</th>
+                <td>HDFC</td>
+              </tr>
+              <tr>
+                <th>Days In Month:</th>
+                <td>20</td>
+              </tr>
+              <tr>
+                <th>Loss of Pay:</th>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th>UAN:</th>
+                <td>0</td>
+              </tr>
+
+          </table>
+        </div>
+        <div class="column"> 
+            <table>
+                <tr>
+                    <th>Emp Name :</th>
+                    <td></td>
+                  </tr> 
+                  <tr>
+                    <th>Designation:</th>
+                    <td>HYDERABAD</td>
+                  </tr>
+                  <tr>
+                    <th>Date of Joining:</th>
+                    <td>July</td>
+                  </tr>
+                  <tr>
+                      <th>Vertical:</th>
+                      <td>HDFC</td>
+                    </tr>
+                    <tr>
+                      <th>Bank A/C No:</th>
+                      <td>20</td>
+                    </tr>
+                    <tr>
+                      <th>ESI No:</th>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <th>EPF NO:</th>
+                      <td>0</td>
+                    </tr>
+              </table> 
+
+
+        </table>
+    </div>
+</div>
+<table style="width:100%">
+    <tr>
+      <th>Gross salary:</th>
+      <td>15000</td>
+    </tr> 
+    <tr>
+      <th>Basics:</th>
+      <td>555 77 854</td>
+    </tr>
+    <tr>
+      <th>HRA & Other Allowances:</th>
+      <td>555 77 855</td>
+    </tr>
+  
+  
+  
+           
+        <!-- <tr>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Unit Price</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td>Item 1</td>
+          <td>2</td>
+          <td>$50.00</td>
+          <td>$100.00</td>
+        </tr>
+        <tr>
+          <td>Item 2</td>
+          <td>3</td>
+          <td>$30.00</td>
+          <td>$90.00</td>
+        </tr> -->
+        <table style="width:100%">
+            <tr>
+              <th>Net salary:</th>
+              <td>15000</td>
+            </tr> 
+            <tr>
+              <th>In Words(Rupees):</th>
+              <td>555 77 854</td>
+            </tr>
+            
+          </table>
+          
+          
+     
+  </div>
+</body>
+</html>
+ 
